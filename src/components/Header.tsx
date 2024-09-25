@@ -4,7 +4,7 @@ import { rem } from "polished";
 const Header = () => {
   return (
     <HeaderContainer>
-      <Logo src="/images/logo.svg" alt="Логотип" aria-label="Логотип" />
+      <Logo src="/images/logo.svg" alt="logo" aria-label="logog" />
     </HeaderContainer>
   );
 };
