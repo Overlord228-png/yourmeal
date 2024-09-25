@@ -1,12 +1,19 @@
-import React from "react"
+import React from "react";
+import { LabelProvider } from "./components/LabelContext";
+import Hero from "./components/Hero";
+import Labels from "./components/Labels";
+import Main from "./components/Main";
+import Footer from "./components/Footer";
 
 const App: React.FC = () => {
-
   return (
-    <>
-      <h1>123</h1>
-    </>
-  )
-}
+    <LabelProvider>
+      <Hero />
+      <Labels />
+      <Main />
+      <Footer />
+    </LabelProvider>
+  );
+};
 
-export default App
+export default App;
